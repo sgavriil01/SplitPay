@@ -192,12 +192,11 @@ Pull requests are welcome! If you'd like to contribute, feel free to fork this r
 
 ## 📄 License
 
-MIT License. © 2025 [Your Name]
+MIT License. © 2025 Spyros Gavriil
 
 ---
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
-🎓 Java Backend Developer | Aspiring Revolut Intern  
-🔗 [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/yourusername)
+**Spyros Gavriil**  
+🎓 Computer Science Student | Aspiring Developer
