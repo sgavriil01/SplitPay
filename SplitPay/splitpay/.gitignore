@@ -1,33 +1,49 @@
-HELP.md
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Maven
 target/
-.mvn/wrapper/maven-wrapper.jar
+.mvn/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Logs
+*.log
+logs/
+*.out
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDEs
+.idea/
 *.iml
 *.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+*.iws
 .vscode/
+*.swp
+
+# IntelliJ and Eclipse
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# Build Tools
+build/
+.gradle/
+out/
+
+# Docker
+**/docker-compose.override.yml
+**/.env
+**/.dockerignore
+
+# PostgreSQL (if using Docker volume)
+pgdata/
+splitpay_pgdata/
+
+# Spring Boot specific
+spring.log
+
+# Misc
+HELP.md
