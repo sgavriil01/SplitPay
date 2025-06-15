@@ -1,5 +1,7 @@
 package com.splitpay.dto.response;
 
-public class UserResponse {
-    
-}
+public record UserResponse(
+    Long id,
+    String name,
+    String email
+) {}
